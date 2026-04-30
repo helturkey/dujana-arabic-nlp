@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use Dujana\ArabicNlp\Console\Standalone\RootEvaluateSuiteStandaloneCommand;
+use Symfony\Component\Console\Application;
+
+require __DIR__.'/../vendor/autoload.php';
+
+$application = new Application('Dujana Arabic NLP', '1.0.0');
+$application->add(new RootEvaluateSuiteStandaloneCommand());
+$application->setDefaultCommand('suite', true);
+
+exit($application->run());

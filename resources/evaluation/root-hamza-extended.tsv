@@ -1,0 +1,26 @@
+word	expected_root	category	note
+مسؤول	سأل	hamza	explicit
+سائل	سأل	hamza	explicit
+سؤال	سأل	hamza	explicit
+أسئلة	سأل	hamza	explicit/db
+مساءلة	سأل	hamza	manual/db
+تساؤل	سأل	hamza	manual/db
+قراءة	قرأ	hamza	explicit
+قارئ	قرأ	hamza	explicit
+مقروء	قرأ	hamza	explicit
+يقرأ	قرأ	hamza	present verb
+قرأوا	قرأ	hamza	plural verb
+مبادئ	بدأ	hamza	manual/db
+مبدأ	بدأ	hamza	db/manual
+بدأ	بدأ	hamza	explicit/db
+يبدأ	بدأ	hamza	present verb
+مآخذ	أخذ	hamza	manual/db
+أخذ	أخذ	hamza	explicit/db
+يأخذ	أخذ	hamza	present verb
+آمن	أمن	hamza	hamza madd
+إيمان	أمن	hamza	masdar
+أمانة	أمن	hamza	noun
+مؤمن	أمن	hamza	active participle
+رئيس	رأس	hamza	hamza seat
+رؤساء	رأس	hamza	broken plural
+شؤون	شأن	hamza	plural

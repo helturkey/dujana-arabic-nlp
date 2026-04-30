@@ -1,0 +1,4 @@
+word	expected_root	category	note
+أكبر	كبر	comparative	explicit
+مسؤول	سأل	hamza	explicit
+ززززز		fallback	should be unreliable

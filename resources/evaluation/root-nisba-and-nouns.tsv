@@ -1,0 +1,26 @@
+word	expected_root	category	note
+مصري	مصر	nisba	explicit
+مصرية	مصر	nisba	explicit
+المصري	مصر	nisba	with article
+عباسي	عباس	nisba	manual override
+عباسية	عباس	nisba	manual override
+العباسي	عباس	nisba	manual override
+أندلسي	اندلس	nisba	non-triliteral preserved
+أندلسية	اندلس	nisba	non-triliteral preserved
+مكي	مك	nisba	db/manual maybe
+مدني	مدن	nisba	db/manual maybe
+كاتب	كتب	noun_pattern	active participle
+مكتوب	كتب	noun_pattern	passive participle
+كتاب	كتب	noun_pattern	noun/root known
+كتابة	كتب	noun_pattern	masdar
+تعليم	علم	noun_pattern	masdar
+معلم	علم	noun_pattern	derived noun
+معلوم	علم	noun_pattern	passive participle
+عامل	عمل	noun_pattern	active participle
+مفتوح	فتح	noun_pattern	passive participle
+مكسور	كسر	noun_pattern	passive participle
+مفهوم	فهم	noun_pattern	passive participle
+مستخرج	خرج	noun_pattern	derived noun
+مدرسة	درس	noun_pattern	place/institution noun
+مفتاح	فتح	noun_pattern	instrument noun
+ميزان	وزن	noun_pattern	instrument noun

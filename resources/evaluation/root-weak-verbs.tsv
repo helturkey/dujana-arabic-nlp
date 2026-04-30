@@ -1,0 +1,26 @@
+word	expected_root	category	note
+قال	قول	weak_root	hollow verb
+قالوا	قول	weak_context	plural suffix
+يقول	قول	weak_context	present form
+يقولون	قول	weak_context	present plural
+قلت	قول	weak_context	past suffix
+قلنا	قول	weak_context	past suffix
+باع	بيع	weak_root	hollow verb
+باعوا	بيع	weak_context	plural suffix
+يبيع	بيع	weak_context	present form
+يبيعون	بيع	weak_context	present plural
+بعت	بيع	weak_context	past suffix
+بعنا	بيع	weak_context	past suffix
+دعا	دعو	weak_root	defective verb
+دعوا	دعو	weak_context	plural suffix
+دعونا	دعو	weak_context	past/pronoun context
+يدعو	دعو	weak_context	present form
+يدعون	دعو	weak_context	present plural
+رمي	رمي	weak_root	defective verb
+رمى	رمي	weak_root	alif maqsura
+رموا	رمي	weak_context	plural suffix
+يرمي	رمي	weak_context	present form
+يرمون	رمي	weak_context	present plural
+سعى	سعي	weak_root	alif maqsura
+يسعى	سعي	weak_context	present form
+سعوا	سعي	weak_context	plural suffix

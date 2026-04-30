@@ -1,0 +1,17 @@
+word	expected_root	category	note
+أسماء	اسم	conflict_review	manual override after wrong reliable
+عباسي	عباس	conflict_review	manual override after wrong reliable
+العباسي	عباس	conflict_review	manual override after wrong reliable
+سرية	سري	conflict_review	top conflict
+أمراء	أمر	conflict_review	manual override after wrong reliable
+فقراء	فقر	conflict_review	manual override after wrong reliable
+أشياء	شيء	conflict_review	manual override after wrong reliable
+آدم	أدم	conflict_review	top conflict review
+بار	بءر	conflict_review	top conflict review
+حاف	حفف	conflict_review	top conflict review
+غار	غور	conflict_review	top conflict review
+حمي	حمي	conflict_review	top conflict review
+رام	رمي	conflict_review	top conflict review
+سام	سوم	conflict_review	top conflict review
+احد	أحد	conflict_review	top conflict review
+اجر	أجر	conflict_review	top conflict review

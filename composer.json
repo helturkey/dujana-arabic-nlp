@@ -1,0 +1,85 @@
+{
+    "name": "helturkey/dujana-arabic-nlp",
+    "description": "A morphology-aware Arabic analysis package for PHP with Laravel support, providing normalization, tokenization, stemming, and root/pattern analysis.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "arabic",
+        "nlp",
+        "arabic-nlp",
+        "morphology",
+        "arabic-morphology",
+        "stemmer",
+        "stemming",
+        "root-extraction",
+        "normalization",
+        "tokenization",
+        "laravel",
+        "dujana"
+    ],
+    "authors": [
+        {
+            "name": "Hussein Srour",
+            "homepage": "https://github.com/helturkey"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "symfony/console": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.29",
+        "orchestra/testbench": "^10.0",
+        "pestphp/pest": "^3.0",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.0"
+    },
+    "suggest": {
+        "ext-pdo_sqlite": "Required when using the optional SQLite lexicon database."
+    },
+    "autoload": {
+        "psr-4": {
+            "Dujana\\ArabicNlp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dujana\\ArabicNlp\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dujana\\ArabicNlp\\Laravel\\DujanaArabicNlpServiceProvider"
+            ],
+            "aliases": {
+                "DujanaArabicNlp": "Dujana\\ArabicNlp\\Laravel\\Facades\\DujanaArabicNlp"
+            },
+            "dont-discover": [
+                "helturkey/dujana-arabic-nlp"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test:unit": "vendor/bin/pest tests/Unit",
+        "format": "vendor/bin/pint",
+        "format:test": "vendor/bin/pint --test"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "bin": [
+        "bin/dujana-lexicon-build",
+        "bin/dujana-lexicon-lookup",
+        "bin/dujana-lexicon-stats",
+        "bin/dujana-root-evaluate",
+        "bin/dujana-root-evaluate-suite"
+    ]
+}

@@ -1,0 +1,15 @@
+/.github export-ignore
+/tests export-ignore
+/storage export-ignore
+/vendor export-ignore
+/.idea export-ignore
+/.vscode export-ignore
+/coverage export-ignore
+/.phpunit.cache export-ignore
+/.pest.cache export-ignore
+/.DS_Store export-ignore
+
+/.env export-ignore
+/phpunit.xml export-ignore
+/pint.json export-ignore
+/PATCH_NOTES.md export-ignore

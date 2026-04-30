@@ -1,0 +1,31 @@
+word	expected_root	category	note
+رجال	رجل	broken_plural	db
+مدارس	درس	broken_plural	db
+قلوب	قلب	broken_plural	db
+أبواب	باب	broken_plural	db/manual
+أقلام	قلم	broken_plural	db/manual
+ثمار	ثمر	broken_plural	db
+جبال	جبل	broken_plural	db
+بحار	بحر	broken_plural	db
+شهور	شهر	broken_plural	db
+نجوم	نجم	broken_plural	db
+أمراء	أمر	broken_plural	manual override
+علماء	علم	broken_plural	db
+فقراء	فقر	broken_plural	manual override
+أغنياء	غني	broken_plural	db
+أصدقاء	صدق	broken_plural	db
+أعداء	عدو	broken_plural	db
+أحياء	حيي	broken_plural	db
+أشياء	شيء	broken_plural	manual override
+أخبار	خبر	broken_plural	db
+أسرار	سرر	broken_plural	db
+أزمان	زمن	broken_plural	db
+أوطان	وطن	broken_plural	db
+بلاد	بلد	broken_plural	db
+ملوك	ملك	broken_plural	db
+كتب	كتب	broken_plural	ambiguous plural/singular root
+صحف	صحف	broken_plural	collective/plural
+طرق	طرق	broken_plural	ambiguous plural/singular root
+أفئدة	فؤد	broken_plural	hamza-heavy plural
+جذور	جذر	broken_plural	db
+أمثال	مثل	broken_plural	db
